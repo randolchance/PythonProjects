@@ -50,9 +50,10 @@ def permutation(aList,R):
     if R > aList_size:
         R = aList_size
     if aList_size == 0 or R == 0:
-        return([])
+        yield([])
     elif aList_size == 1 or R == 1:
-        return([[x] for x in aList])
+        for x in aList:
+            yield([x])
     else:
         iList = [[x] for x in aList]
         oldList = [x for x in iList]
@@ -64,7 +65,8 @@ def permutation(aList,R):
                     if iList[x][0] not in y:
                         newList.append(iList[x]+y)
             oldList = [x for x in newList]
-        return(newList)
+        for n in newList:
+            yield(n)
 
-val = [0,1,2,3,4]
-print(permutation(val,5))
+for p in permutation([1,2,3,4,5,6,7],3):
+    print(p)
