@@ -68,5 +68,3 @@ def permutation(aList,R):
         for n in newList:
             yield(n)
 
-for p in permutation([1,2,3,4,5,6,7],3):
-    print(p)

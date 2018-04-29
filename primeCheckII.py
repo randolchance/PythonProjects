@@ -1,5 +1,4 @@
 from math import sqrt
-from memoise import Memoise
 
 class IsPrime:
     def __init__(self):

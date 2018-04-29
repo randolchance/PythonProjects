@@ -1,26 +1,6 @@
 from math import sqrt
+from primeCheck import primes
 
-def isPrime(x):
-    if x == 2:
-        return(True)
-    if x == 1 or x%2 == 0 or x == 0:
-        return(False)
-    p = True
-    i = 3
-    while i <= int(sqrt(x)):
-        if isPrime(i):
-            p = p and (x%i != 0)
-        i += 2
-    return(p)
-
-def primes(i=2,f=-1):
-    if f == -1 or i < f:
-        while True:
-            if isPrime(i):
-                yield(i)
-            i += (i%2!=0 and i!=1)+1
-            if f != -1 and i >= f:
-                break
 
 max_prime = 10000000
 with open("primes.txt",'r+') as file:
