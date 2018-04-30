@@ -1,4 +1,8 @@
 .*/
 __*/
 test*.py
-./PE*.py
+
+PE*.py
+p*.txt
+
+teset6\.py
