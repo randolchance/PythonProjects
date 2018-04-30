@@ -1,5 +1,5 @@
 # Darts
-## Problem 109
+## [Problem 109](https://projecteuler.net/problem=109)
 In the game of darts a player throws three darts at a target board which is split into twenty equal sized sections numbered one to twenty.
 ![](https://projecteuler.net/project/images/p109.gif)
 

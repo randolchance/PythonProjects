@@ -1,5 +1,5 @@
 # Maximum product of parts
-## Problem 183
+## [Problem 183](https://projecteuler.net/problem=183)
 Let N be a positive integer and let N be split into k equal parts, r = N/k, so that N = r + r + ... + r.
 
 Let P be the product of these parts, P = r × r × ... × r = rk.

@@ -1,5 +1,5 @@
 # Triangle containment
-## Problem 102
+## [Problem 102](https://projecteuler.net/problem=102)
 Three distinct points are plotted at random on a Cartesian plane, for which -1000 ≤ x, y ≤ 1000, such that a triangle is formed.
 Consider the following two triangles:
 A(-340,495), B(-153,-910), C(835,-947)

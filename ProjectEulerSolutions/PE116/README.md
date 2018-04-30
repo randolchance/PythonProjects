@@ -1,5 +1,5 @@
 # Red, green or blue tiles
-## Problem 116
+## [Problem 116](https://projecteuler.net/problem=116)
 A row of five black square tiles is to have a number of its tiles replaced with coloured oblong tiles chosen from red (length two), green (length three), or blue (length four).
 If red tiles are chosen there are exactly seven ways this can be done.
 If green tiles are chosen there are three ways.

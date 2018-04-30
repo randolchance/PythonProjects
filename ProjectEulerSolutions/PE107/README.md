@@ -1,5 +1,5 @@
 # Minimal network
-## Problem 107
+## [Problem 107](https://projecteuler.net/problem=107)
 The following undirected network consists of seven vertices and twelve edges with a total weight of 243.
 ![](https://projecteuler.net/project/images/p107_1.gif)
 

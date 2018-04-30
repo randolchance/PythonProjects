@@ -1,5 +1,5 @@
 # Sum of squares of divisors
-## Problem 401
+## [Problem 401](https://projecteuler.net/problem=401)
 
 The divisors of 6 are 1,2,3 and 6.
 
