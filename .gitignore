@@ -1,3 +1,4 @@
 .*/
+__*/
 test*.py
-PE*.py
+./PE*.py
