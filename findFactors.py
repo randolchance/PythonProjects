@@ -1,7 +1,8 @@
 from math import sqrt
-
 from primeCheckII import primes
+from memoise import Memoise
 
+@Memoise
 def findFactors(x):
     X = x
     results = []
@@ -15,7 +16,8 @@ def findFactors(x):
                 results.append(p)
                 break
         if not divided:
-            results.append(int(X))
+            if X > 1:
+                results.append(int(X))
             break
     return(results)
 

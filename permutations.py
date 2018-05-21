@@ -67,4 +67,3 @@ def permutation(aList,R):
             oldList = [x for x in newList]
         for n in newList:
             yield(n)
-

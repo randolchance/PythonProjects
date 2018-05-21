@@ -21,6 +21,8 @@ class IsPrime:
                     if x%j == 0:
                         return(False)
                 j += 2
+                if int(str(j)[-1:]) == 5 and len(str(j)) > 1:
+                    j += 2
             return(True)
 
         start_j = 3
@@ -40,9 +42,14 @@ class IsPrime:
 
 PrimeCheck = IsPrime()
 def primes(k=2,f=-1):
-    i = 2
+    i = k
+    if i == 1 or i == 2 and f != 0 and f != 1:
+        yield(2)
+        i = 3
     while f == -1 or i < f:
         if PrimeCheck(i):
             if i >= k:
                 yield(i)
         i += (i%2!=0 and i!=1) + 1
+        if int(str(i)[-1:]) == 5  and len(str(i)) > 1:
+            i += 2
