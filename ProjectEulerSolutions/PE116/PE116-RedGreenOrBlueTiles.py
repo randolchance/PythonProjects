@@ -1,5 +1,3 @@
-"""
-PROJECT EULER 116 - Red, Green, or Blue Tiles
 A row of five black square tiles is to have a number of its tiles
 replaced with coloured oblong tiles chosen from red (length two),
 green (length three), or blue (length four).
@@ -16,8 +14,6 @@ replacing the black tiles in a row measuring five units in length.
 How many different ways can the black tiles in a row measuring fifty
 units in length be replaced if colours cannot be mixed and at least one
 coloured tile must be used?
-"""
-
 from memoise import Memoise
 
 RED = 2
@@ -44,11 +40,7 @@ for colour in [RED,GREEN,BLUE]:
     count += add_count
 print(count)
 
-"""
-For 50 cells:
 RED(2) = 20365011073
 GREEN(3) = 122106096
 BLUE(4) =  5453760
 TOTAL(R+G+B) = 20492570929
-CORRECT
-"""

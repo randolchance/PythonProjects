@@ -1,5 +1,7 @@
 .*/
 __*/
+venv*/
+
 test*.py
 
 PE*.py

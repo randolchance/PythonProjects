@@ -1,5 +1,3 @@
-"""
-PROJECT EULER 114 - Counting Block Combinations I
 A row measuring seven units in length has red blocks with a minimum
 length of three units placed on it, such that any two red blocks
 (which are allowed to be different lengths) are separated by at least
@@ -11,8 +9,6 @@ NOTE: Although the example above does not lend itself to the
 possibility, in general it is permitted to mix block sizes.
 For example, on a row measuring eight units in length you
 could use red (3), black (1), and red (4).
-"""
-
 from memoise import Memoise
 
 @Memoise
@@ -30,7 +26,3 @@ def countBlockPermutations(total_cell_count,block_min_size):
 
 print(countBlockPermutations(7,3)+1)
 
-"""
-40: 133957148
-50: 16475640049 CORRECT
-"""

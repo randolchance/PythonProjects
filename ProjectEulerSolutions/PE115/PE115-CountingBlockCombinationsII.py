@@ -1,5 +1,3 @@
-"""
-PROJECT EULER 115 - Counting Block Combinations II
 NOTE: This is a more difficult version of Problem 114.
 
 A row measuring n units in length has red blocks with a minimum length
@@ -20,8 +18,6 @@ fill-count function first exceeds one million.
 
 For m = 50, find the least value of n for which the fill-count function
 first exceeds one million.
-"""
-
 from memoise import Memoise
 
 @Memoise
@@ -46,6 +42,3 @@ while True:
         break
     total_cell_count += 1
 print(permutations, total_cell_count)
-"""
-1053388; n = 168 CORRECT
-"""

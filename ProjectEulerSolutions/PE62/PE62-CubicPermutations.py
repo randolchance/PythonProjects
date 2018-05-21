@@ -1,3 +1,6 @@
+# PROJECT EULER PROBLEM 62 - Cubic Permutations
+
+
 from collections import Counter
 
 
@@ -47,7 +50,8 @@ result = cubicPermutations(i)
 for i in range(1,len(result)):
     check = Counter(str(result[0]**3))
     if Counter(str(result[i]**3)) == check:
-        print(f"Verified! {result[i]}")
+        print("Verified! {}".format(result[i]))
 ANSWER = result[0]**3
 
-print(f"The smallest cube with 5 cubic permutations of its digits is {ANSWER}!")
+print("The smallest cube with 5 cubic permutations of its digits is {}!".format(ANSWER))
+

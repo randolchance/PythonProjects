@@ -1,10 +1,4 @@
-"""
-PROJECT EULER PROBLEM 63 - Powerful Digit Counts
-The 5-digit number, 16807=7**5, is also a fifth power.
-Similarly, the 9-digit number, 134217728=8**9, is a ninth power.
-
-How many n-digit positive integers exist which are also an nth power?
-"""
+# PROJECT EULER PROBLEM 63 - Powerful Digit Counts
 
 def powerfulDigitCount():
     i = 0
@@ -26,4 +20,3 @@ def powerfulDigitCount():
             
 print(powerfulDigitCount())
 
-# 49 CORRECT
