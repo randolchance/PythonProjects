@@ -1,0 +1,5 @@
+# PROJECT EULER PROBLEM 97 - Large non-Mersenne Prime
+
+X = (28433*pow(2,7830457,10000000000))%10000000000+1
+print(X)
+
