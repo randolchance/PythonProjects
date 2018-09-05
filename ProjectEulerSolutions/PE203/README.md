@@ -1,6 +1,7 @@
 # Squarefree Binomial Coefficients
 ## [Problem 203](https://projecteuler.net/problem=203)
 The binomial coefficients ^nC_k can be arranged in triangular form, Pascal's triangle, like this:
+
  | 1
  | 1 | 1
  | 1 | 2 | 1

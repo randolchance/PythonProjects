@@ -19,6 +19,14 @@ If red tiles are chosen there are exactly seven ways this can be done.
 
 
 
+
+
+
+
+
+
+
+
 If green tiles are chosen there are three ways.
 
 
@@ -28,7 +36,14 @@ If green tiles are chosen there are three ways.
 
 
 
+
+
+
+
 And if blue tiles are chosen there are two ways.
+
+
+
 
 
 
