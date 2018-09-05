@@ -1,13 +1,13 @@
 # Prime power triples
 ## [Problem 87](https://projecteuler.net/problem=87)
 The smallest number expressible as the sum of a prime square, prime cube, and prime fourth power is 28. In fact, there are exactly four numbers below fifty that can be expressed in such a way:
-28 = 22 + 23 + 24
+28 = 2^2 + 2^3 + 2^4
 
-33 = 32 + 23 + 24
+33 = 3^2 + 2^3 + 2^4
 
-49 = 52 + 23 + 24
+49 = 5^2 + 2^3 + 2^4
 
-47 = 22 + 33 + 24
+47 = 2^2 + 3^3 + 2^4
 
 
 

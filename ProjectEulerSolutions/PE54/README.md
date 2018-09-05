@@ -6,6 +6,13 @@ The cards are valued in the order:
 
 If two players have the same ranked hands then the rank made up of the highest value wins; for example, a pair of eights beats a pair of fives (see example 1 below). But if two ranks tie, for example, both players have a pair of queens, then highest cards in each hand are compared (see example 4 below); if the highest cards tie then the next highest cards are compared, and so on.
 Consider the following five hands dealt to two players:
+Hand | Player 1 | Player 2 | Winner
+1 | 5H 5C 6S 7S KDPair of Fives | 2C 3S 8S 8D TDPair of Eights | Player 2
+2 | 5D 8C 9S JS ACHighest card Ace | 2C 5C 7D 8S QHHighest card Queen | Player 1
+3 | 2D 9C AS AH ACThree Aces | 3D 6D 7D TD QDFlush  with Diamonds | Player 2
+4 | 4D 6S 9H QH QCPair of QueensHighest card Nine | 3D 6D 7H QD QSPair of QueensHighest card Seven | Player 1
+5 | 2H 2D 4C 4D 4SFull HouseWith Three Fours | 3C 3D 3S 9S 9DFull Housewith Three Threes | Player 1
+
 
 
 

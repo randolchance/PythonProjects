@@ -1,10 +1,16 @@
 # Diophantine reciprocals I
 ## [Problem 108](https://projecteuler.net/problem=108)
 In the following equation x, y, and n are positive integers.
+1x |  +  | 1y |  =  | 1n
+
 
 
 
 For n = 4 there are exactly three distinct solutions:
+15 |  +  | 120 |  =  | 14
+16 |  +  | 112 |  =  | 14
+18 |  +  | 18 |  =  | 14
+
 
 
 
