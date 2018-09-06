@@ -11,16 +11,58 @@ There are exactly eleven distinct ways to checkout on a score of 6:
 ![](https://projecteuler.net/images/spacer.gif)
 
 D3
-D1 | D2
-S2 | D2
-D2 | D1
-S4 | D1
-S1 | S1 | D2
-S1 | T1 | D1
-S1 | S3 | D1
-D1 | D1 | D1
-D1 | S2 | D1
-S2 | S2 | D1
+ 
+ 
+
+
+D1
+D2
+ 
+
+
+S2
+D2
+ 
+
+
+D2
+D1
+ 
+
+
+S4
+D1
+ 
+
+
+S1
+S1
+D2
+
+
+S1
+T1
+D1
+
+
+S1
+S3
+D1
+
+
+D1
+D1
+D1
+
+
+D1
+S2
+D1
+
+
+S2
+S2
+D1
 
 
 
